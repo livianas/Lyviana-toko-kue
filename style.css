@@ -144,3 +144,38 @@ color: burlywood;
 .product p {
     color: #666;
 }
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%; 
+    }
+
+    header h1 {
+        float: none; 
+        text-align: center; 
+        padding: 15px 0;
+    }
+
+    header ul {
+        float: none; 
+        text-align: center; 
+        margin-top: 15px;
+    }
+
+    header ul li {
+        display: block;
+        margin-bottom: 10px; 
+    }
+
+    .box .col-3 {
+        width: 100%; 
+        float: none; 
+    }
+    
+    .product {
+        flex: 0 0 calc(50% - 20px); 
+        max-width: calc(50% - 20px); 
+        margin: 10px; 
+    }
+}
