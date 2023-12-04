@@ -136,6 +136,10 @@ color: burlywood;
     max-width: calc(33.333% - 40px);
     box-sizing: border-box;
 }
+.product img {
+    max-width: 100%;
+    height: auto;
+}
 .product h4 {
     margin-top: 10px;
     color: burlywood;
@@ -178,4 +182,9 @@ color: burlywood;
         max-width: calc(50% - 20px); 
         margin: 10px; 
     }
+}
+.product img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
